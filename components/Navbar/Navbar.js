@@ -1,6 +1,8 @@
+import { useState } from "react";
+
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { FaHeart, FaBars } from "react-icons/fa";
+import { FaHeart, FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
 
 const LinkList = [
@@ -32,10 +34,15 @@ const LinkList = [
 
 const Navbar = () => {
   const router = useRouter();
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
-    <nav className="mi-header">
-      <button className="mi-header-toggler">
-        <FaBars />
+    <nav className={sidebarOpen ? "mi-header is-visible" : "mi-header"}>
+      <button
+        className="mi-header-toggler"
+        onClick={() => setSidebarOpen(!sidebarOpen)}
+      >
+        {sidebarOpen ? <FaTimes /> : <FaBars />}
       </button>
       <div className="mi-header-inner">
         <div className="mi-header-image">
