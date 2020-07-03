@@ -1,17 +1,16 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
-import Home from "../components/Home/Home";
 
-const Index = () => {
+const Contact = () => {
   return (
     <Layout>
       <div className="container">
         <Head>
-          <title>Mahmudul Alam || Home</title>
+          <title>Mahmudul Alam || Contact</title>
         </Head>
-        <Home />
+        <h1>Hello from Contact</h1>
       </div>
     </Layout>
   );
 };
-export default Index;
+export default Contact;
