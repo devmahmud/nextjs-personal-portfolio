@@ -1,4 +1,12 @@
+import Router from "next/router";
+import NProgress from "nprogress";
+
 import Navbar from "./Navbar/Navbar";
+
+NProgress.configure({ showSpinner: false });
+Router.onRouteChangeStart = (url) => NProgress.start();
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouterChangeError = () => NProgress.done();
 
 const Layout = ({ children }) => {
   return (
