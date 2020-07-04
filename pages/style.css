@@ -1,11 +1,4 @@
-@import url(
-  https://fonts.googleapis.com/css?family=Nunito:300,
-  400,
-  400i,
-  600,
-  700,
-  800&display=swap
-);
+@import url("https://fonts.googleapis.com/css2?family='Nunito':ital,wght@0,400;0,600;0,700;1,400&display=swap");
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -205,7 +198,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
   line-height: 1.8rem;
-  font-family: Nunito, sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #a4acc4;
   font-weight: 400;
   background: #10121b;
