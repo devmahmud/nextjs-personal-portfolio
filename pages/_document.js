@@ -20,6 +20,10 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+          ></link>
         </Head>
         <body>
           <Main />
