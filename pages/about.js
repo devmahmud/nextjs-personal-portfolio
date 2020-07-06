@@ -8,7 +8,7 @@ const About = () => {
         <Head>
           <title>Mahmudul Alam || About</title>
         </Head>
-        <h1>Hello from about</h1>
+        <h1>Hello from abouts</h1>
       </div>
     </Layout>
   );
