@@ -1,0 +1,88 @@
+/*
+ * Resume 
+ */
+.mi-resume-wrapper {
+  border-left: 3px solid #2e344e;
+}
+
+.mi-resume {
+  display: flex;
+}
+
+.mi-resume-summary {
+  align-self: flex-start;
+  flex: 0 0 220px;
+  max-width: 220px;
+  padding-left: 20px;
+  position: relative;
+}
+.mi-resume-summary::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 6px;
+  height: 15px;
+  width: 15px;
+  border-radius: 100px;
+  background: #10121b;
+  border: 3px solid #2e344e;
+}
+
+.mi-resume-year {
+  color: #a4acc4;
+  margin-bottom: 0;
+}
+
+.mi-resume-company {
+  color: #ffffff;
+}
+
+.mi-resume-details {
+  position: relative;
+  padding-left: 50px;
+}
+.mi-resume-details::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15px;
+  height: 1px;
+  width: 30px;
+  background: #2e344e;
+}
+.mi-resume-details h5 {
+  color: #037fff;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.mi-resume-details p {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .mi-resume-summary {
+    flex: 0 0 170px;
+    max-width: 170px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mi-resume-summary {
+    flex: 0 0 170px;
+    max-width: 170px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mi-resume {
+    flex-wrap: wrap;
+  }
+  .mi-resume-details {
+    padding-left: 20px;
+  }
+  .mi-resume-details::before {
+    left: 3px;
+    top: -15px;
+    width: 12px;
+  }
+}
