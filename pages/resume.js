@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
+import Skills from "../components/Resume/Skills";
+import Experiences from "../components/Resume/Experiences";
 
 const Resume = () => {
   return (
@@ -8,7 +10,8 @@ const Resume = () => {
         <Head>
           <title>Mahmudul Alam || Resume</title>
         </Head>
-        <h1>Hello from Resume</h1>
+        <Skills />
+        <Experiences />
       </div>
     </Layout>
   );
