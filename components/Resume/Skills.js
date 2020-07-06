@@ -46,7 +46,7 @@ const Skills = () => {
           <div className="row mt-30-reverse">
             {skills &&
               skills.map((skill, i) => (
-                <div className="col-lg-6 mt-30">
+                <div className="col-lg-6 mt-30" key={i}>
                   <div className="mi-progress">
                     <h6 className="mi-progress-title">{skill.name}</h6>
                     <div className="mi-progress-inner">
