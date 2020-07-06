@@ -43,7 +43,7 @@ const About = () => {
                 <b>Freelance</b> Available
               </li>
             </ul>
-            <a className="mi-button" href="/files/empty.pdf">
+            <a className="mi-button" href="/files/mahmudul.pdf">
               Download CV
             </a>
           </div>
