@@ -1,5 +1,3 @@
-import "./aboutMe.css";
-
 const About = () => {
   return (
     <React.Fragment>

@@ -1,5 +1,4 @@
 import Slider from "react-slick";
-import "./testimonial.css";
 
 const Testimonial = () => {
   const settings = {

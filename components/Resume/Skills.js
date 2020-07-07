@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 
-import "./skills.css";
-
 const Skills = () => {
   const [skills, setSkills] = useState([
     { name: "HTML5", level: "0%" },

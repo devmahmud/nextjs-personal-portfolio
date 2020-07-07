@@ -1,5 +1,3 @@
-import "./service.css";
-
 const serviceList = [
   {
     title: "Web Design",

@@ -1,5 +1,4 @@
 import { work_experiences, educations } from "../../pages/api/data";
-import "./experiences.css";
 
 const Experiences = () => {
   return (

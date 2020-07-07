@@ -1,8 +1,6 @@
 import Particles from "../Particles";
 import { FaGithub, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
-import "./home.css";
-
 const Home = () => {
   return (
     <React.Fragment>
