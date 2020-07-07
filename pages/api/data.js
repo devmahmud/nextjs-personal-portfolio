@@ -43,3 +43,27 @@ export const educations = [
       "I have studied from class Six To Class Eight In Agradigun M.L High school , then i moved to Naogaon K.D govt high school and Completed my Secondary School Certificate With Golden GPA 5.",
   },
 ];
+
+export const projects = [
+  {
+    feature_image: "/images/portfolio-image-1.jpg",
+    live_link: "https://google.com",
+    github_link: "https://google.com",
+    title: "Tshirt Design",
+    description: "Photoshop Graphics art",
+  },
+  {
+    feature_image: "/images/portfolio-image-1.jpg",
+    live_link: "https://google.com",
+    github_link: "https://google.com",
+    title: "Tshirt Design",
+    description: "Photoshop Graphics art",
+  },
+  {
+    feature_image: "/images/portfolio-image-1.jpg",
+    live_link: "https://google.com",
+    github_link: "https://google.com",
+    title: "Tshirt Design",
+    description: "Photoshop Graphics art",
+  },
+];
