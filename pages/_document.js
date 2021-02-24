@@ -15,6 +15,10 @@ class MyDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <meta
+            name="google-site-verification"
+            content="Wiis-V23HHxKREFgJKqxZeS8qnJk0DbR30J9OJ7FGbg"
+          />
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="stylesheet"
