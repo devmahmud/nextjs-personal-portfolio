@@ -67,7 +67,7 @@ const Navbar = () => {
           ))}
         </ul>
         <p className="mi-header-copyright">
-          Made with <FaHeart style={{ color: "red" }} /> by Mahmudul
+          Made with <FaHeart color="red" /> by Mahmudul
         </p>
       </div>
     </nav>
