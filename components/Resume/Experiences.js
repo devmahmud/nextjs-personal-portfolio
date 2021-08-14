@@ -1,4 +1,4 @@
-import { work_experiences, educations } from "../../pages/api/data";
+import { work_experiences, educations } from '../../pages/api/data';
 
 const Experiences = () => {
   return (

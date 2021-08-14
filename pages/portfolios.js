@@ -1,7 +1,7 @@
-import Head from "next/head";
-import Layout from "../components/Layout";
-import { FaLink, FaGithub } from "react-icons/fa";
-import { projects } from "./api/data";
+import Head from 'next/head';
+import Layout from '../components/Layout';
+import { FaLink, FaGithub } from 'react-icons/fa';
+import { projects } from './api/data';
 
 const Portfolios = () => {
   return (
@@ -23,24 +23,29 @@ const Portfolios = () => {
                     <div className="mi-portfolio-image">
                       <img src={project.feature_image} alt={project.title} />
                       <ul>
-                        <li>
-                          <a
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href={project.live_link}
-                          >
-                            <FaLink />
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href={project.github_link}
-                          >
-                            <FaGithub />
-                          </a>
-                        </li>
+                        {project?.live_link && (
+                          <li>
+                            <a
+                              rel="noopener noreferrer"
+                              target="_blank"
+                              href={project.live_link}
+                            >
+                              <FaLink />
+                            </a>
+                          </li>
+                        )}
+
+                        {project?.github_link && (
+                          <li>
+                            <a
+                              rel="noopener noreferrer"
+                              target="_blank"
+                              href={project.github_link}
+                            >
+                              <FaGithub />
+                            </a>
+                          </li>
+                        )}
                       </ul>
                     </div>
                     <h5>
