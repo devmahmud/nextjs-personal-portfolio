@@ -1,5 +1,5 @@
-import Particles from "../Particles";
-import { FaGithub, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import Particles from '../Particles';
+import { FaGithub, FaLinkedinIn, FaStackOverflow } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -14,8 +14,19 @@ const Home = () => {
                   Hi, I am <span className="color-theme">Mahmudul Alam</span>
                 </h1>
                 <p>
-                  I am a full stack web developer. I enjoy building everything
-                  from small business sites to rich interactive web apps.
+                  I'm a full-stack developer with a proven development
+                  experience spanning over 2.5 years. With a knack for design &
+                  its tiniest details, I've been developing consumer-facing
+                  software for a good number of clients, companies & businesses.
+                  From analyzing high-level requirements for individual clients
+                  to developing & scaling business solutions like CRM & CMS for
+                  B2B service providers - I have a combined suite of strong
+                  engineering, designing, communication & professionalism. I'm
+                  proficient in libraries & frameworks of JavaScript & Python -
+                  ReactJS, React Native, NodeJS, Express, Django - to name a
+                  few. I focus on writing reusable components with a readable
+                  codebase in a clean architecture, heavily reflected in my open
+                  source contributions.
                 </p>
                 <ul className="mi-socialicons mi-socialicons-bordered">
                   <li>
@@ -40,9 +51,39 @@ const Home = () => {
                     <a
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://facebook.com/expeliermers"
+                      href="https://stackoverflow.com/users/10956991/mahmudul-alam?tab=profile"
                     >
-                      <FaFacebookF />
+                      <FaStackOverflow />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://fiverr.com/devmahmud"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                        role="img"
+                        width="1em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 24 24"
+                      >
+                        <g transform="translate(2.5 2)">
+                          <path
+                            d="M16.25 16.25v-10h-10v-.625c0-1.034.841-1.875 1.875-1.875H10V0H8.125A5.632 5.632 0 0 0 2.5 5.625v.625H0V10h2.5v6.25H0V20h8.75v-3.75h-2.5V10h6.285v6.25H10V20h8.75v-3.75h-2.5z"
+                            fill="currentColor"
+                          />
+                          <circle
+                            cx="14.375"
+                            cy="1.875"
+                            r="1.875"
+                            fill="currentColor"
+                          />
+                        </g>
+                      </svg>
                     </a>
                   </li>
                 </ul>
