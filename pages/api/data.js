@@ -72,7 +72,7 @@ export const projects = [
     feature_image: '/images/fieldpros.png',
     live_link: 'https://fieldpros.ai',
     title: 'fieldpros.ai',
-    description: 'CRM for landscapers.',
+    description: 'CRM for Landscping Companies',
   },
   {
     feature_image: '/images/oas.png',
