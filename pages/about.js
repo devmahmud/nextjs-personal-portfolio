@@ -1,8 +1,8 @@
-import Head from "next/head";
-import Layout from "../components/Layout";
-import AboutMe from "../components/About/AboutMe";
-import Services from "../components/About/Services";
-import Testimonial from "../components/About/Testimonial";
+import Head from 'next/head';
+import Layout from '../components/Layout';
+import AboutMe from '../components/About/AboutMe';
+import Services from '../components/About/Services';
+import Testimonial from '../components/About/Testimonial';
 
 const About = () => {
   return (

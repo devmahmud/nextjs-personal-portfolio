@@ -1677,7 +1677,7 @@ input[type='radio']:checked ~ label::before {
 
 .mi-home-content {
   text-align: center;
-  padding: 50px 0px;
+  padding: 50px 80px;
 }
 .mi-home-content h1 {
   font-weight: 700;

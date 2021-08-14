@@ -14,19 +14,8 @@ const Home = () => {
                   Hi, I am <span className="color-theme">Mahmudul Alam</span>
                 </h1>
                 <p>
-                  I'm a full-stack developer with a proven development
-                  experience spanning over 2.5 years. With a knack for design &
-                  its tiniest details, I've been developing consumer-facing
-                  software for a good number of clients, companies & businesses.
-                  From analyzing high-level requirements for individual clients
-                  to developing & scaling business solutions like CRM & CMS for
-                  B2B service providers - I have a combined suite of strong
-                  engineering, designing, communication & professionalism. I'm
-                  proficient in libraries & frameworks of JavaScript & Python -
-                  ReactJS, React Native, NodeJS, Express, Django - to name a
-                  few. I focus on writing reusable components with a readable
-                  codebase in a clean architecture, heavily reflected in my open
-                  source contributions.
+                  I am a full stack web developer. I enjoy building everything
+                  from small business sites to rich interactive web apps.
                 </p>
                 <ul className="mi-socialicons mi-socialicons-bordered">
                   <li>

@@ -6,22 +6,31 @@ const About = () => {
         <span>About Me</span>
       </div>
       <div className="row">
-        <div className="col-lg-6">
+        {/* <div className="col-lg-6">
           <div className="mi-about-image">
             <img alt="about" src="/images/about-image.jpg" />
           </div>
-        </div>
-        <div className="col-lg-6">
+        </div> */}
+        <div className="col-lg-12">
           <div className="mi-about-content">
             <h3>
               I am <span className="color-theme">Mahmudul Alam</span>
             </h3>
             <p>
-              I am a frontend web developer. I can provide clean code and pixel
-              perfect design. I also make website more &amp; more interactive
-              with web animations.
+              I'm a full-stack developer with a proven development experience
+              spanning over 2.5 years. With a knack for design & its tiniest
+              details, I've been developing consumer-facing software for a good
+              number of clients, companies & businesses. From analyzing
+              high-level requirements for individual clients to developing &
+              scaling business solutions like CRM & CMS for B2B service
+              providers - I have a combined suite of strong engineering,
+              designing, communication & professionalism. I'm proficient in
+              libraries & frameworks of JavaScript & Python - ReactJS, React
+              Native, NodeJS, Express, Django - to name a few. I focus on
+              writing reusable components with a readable codebase in a clean
+              architecture, heavily reflected in my open source contributions.
             </p>
-            <ul>
+            {/* <ul>
               <li>
                 <b>Full Name</b> Mahmudul Alam
               </li>
@@ -40,8 +49,12 @@ const About = () => {
               <li>
                 <b>Freelance</b> Available
               </li>
-            </ul>
-            <a className="mi-button" href="/files/mahmudul.pdf">
+            </ul> */}
+            <a
+              className="mi-button"
+              target="_blank"
+              href="https://rxresu.me/r/uzchst"
+            >
               Download CV
             </a>
           </div>
