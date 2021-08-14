@@ -1,33 +1,33 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { FaHeart, FaBars, FaTimes } from "react-icons/fa";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { FaHeart, FaBars, FaTimes } from 'react-icons/fa';
 
 const LinkList = [
   {
-    name: "Home",
-    path: "/",
+    name: 'Home',
+    path: '/',
   },
   {
-    name: "About",
-    path: "/about",
+    name: 'About',
+    path: '/about',
   },
   {
-    name: "Resume",
-    path: "/resume",
+    name: 'Resume',
+    path: '/resume',
   },
   {
-    name: "Portfolios",
-    path: "/portfolios",
+    name: 'Portfolios',
+    path: '/portfolios',
   },
+  // {
+  //   name: "Blogs",
+  //   path: "/blogs",
+  // },
   {
-    name: "Blogs",
-    path: "/blogs",
-  },
-  {
-    name: "Contact",
-    path: "/contact",
+    name: 'Contact',
+    path: '/contact',
   },
 ];
 
@@ -36,7 +36,7 @@ const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <nav className={sidebarOpen ? "mi-header is-visible" : "mi-header"}>
+    <nav className={sidebarOpen ? 'mi-header is-visible' : 'mi-header'}>
       <button
         className="mi-header-toggler"
         onClick={() => setSidebarOpen(!sidebarOpen)}
@@ -59,7 +59,7 @@ const Navbar = () => {
           {LinkList.map((item, i) => (
             <li key={i}>
               <Link href={item.path}>
-                <a className={router.pathname == item.path ? "active" : ""}>
+                <a className={router.pathname == item.path ? 'active' : ''}>
                   <span>{item.name}</span>
                 </a>
               </Link>
