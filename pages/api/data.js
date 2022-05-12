@@ -76,15 +76,15 @@ export const projects = [
   },
   {
     feature_image: '/images/oas.png',
-    live_link: 'https://app.oas.aero',
+    live_link: 'https://shop.oas.aero',
     title: 'Oas.aero',
     description: 'Aircraft parts selling ecommerce site',
   },
   {
     feature_image: '/images/adbazar.png',
-    // live_link: 'https://google.com',
+    live_link: 'https://dhakaexporters.com',
     // github_link: 'https://google.com',
-    title: 'Adbazar',
+    title: 'Dhaka Exporters',
     description: 'Classified ads site similar to bikroy.com',
   },
   {
@@ -103,7 +103,7 @@ export const projects = [
   },
   {
     feature_image: '/images/banglamirror.png',
-    live_link: 'https://banglamirror.com',
+    live_link: 'https://banglamirror.net',
     // github_link: 'https://google.com',
     title: 'Banglamirror',
     description: 'Online news portal',
