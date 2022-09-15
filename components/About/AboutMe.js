@@ -17,18 +17,16 @@ const About = () => {
               I am <span className="color-theme">Mahmudul Alam</span>
             </h3>
             <p>
-              I'm a full-stack developer with a proven development experience
-              spanning over 2.5 years. With a knack for design & its tiniest
-              details, I've been developing consumer-facing software for a good
-              number of clients, companies & businesses. From analyzing
-              high-level requirements for individual clients to developing &
-              scaling business solutions like CRM & CMS for B2B service
-              providers - I have a combined suite of strong engineering,
-              designing, communication & professionalism. I'm proficient in
-              libraries & frameworks of JavaScript & Python - ReactJS, React
-              Native, NodeJS, Express, Django - to name a few. I focus on
-              writing reusable components with a readable codebase in a clean
-              architecture, heavily reflected in my open source contributions.
+              I'm a full-stack software developer with proven development experience spanning over 3
+              years. With a knack for design & its tiniest details, I've been developing
+              consumer-facing software for a good number of clients, companies & businesses. From
+              analyzing high-level requirements for individual clients to developing & scaling
+              business solutions like CRM & CMS for B2B service providers - I have a combined suite
+              of strong engineering, designing, communication & professionalism. I'm proficient in
+              libraries & frameworks of JavaScript & Python - ReactJS, React Native, NodeJS,
+              Express, Django, Web3.js, and Ethers.js - to name a few. I focus on writing reusable
+              components with a readable codebase in a clean architecture, heavily reflected in my
+              open-source contributions.
             </p>
             {/* <ul>
               <li>
@@ -53,7 +51,7 @@ const About = () => {
             <a
               className="mi-button"
               target="_blank"
-              href="https://rxresu.me/r/uzchst"
+              href="https://drive.google.com/file/d/1Xp79ZiYGd2RvjEoWO63CTaFrQBASRiRx/view?usp=sharing"
             >
               Download CV
             </a>

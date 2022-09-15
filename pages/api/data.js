@@ -1,6 +1,18 @@
 export const work_experiences = [
   {
     title: 'Software Engineer',
+    company: 'Tero Labs LLC',
+    from: '09/2021',
+    to: 'Present',
+    details: `Building User Interfaces using React.js, Next.js, Typescript.
+    Worked on Smart Contract & Frontend Integrations.
+    Integrated REST APIs & Smart contract calls from Dapp.
+    Built cross-platform native app using React Native & Typescript.
+    Worked on BLE, NFC, & QR CODE
+    Worked with Metamask, Walletconnect, Celo Extension Wallet`,
+  },
+  {
+    title: 'Software Engineer',
     company: 'Heavytask LLC',
     from: '02/2020',
     to: 'Present',
